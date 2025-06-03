@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="m-0">
+
+    <div class="bg-white flex flex-col sm:flex-row items-center justify-between px-4 py-2 sm:h-[9vh]">
+      <div class="flex items-center space-x-4">
+        <img src="/img/logo.png" class="w-12 h-12 sm:w-[9vh] sm:h-[9vh]" alt="Logo">
+        <span class="text-black text-xl font-bold">River Run Yard Care</span>
+      </div>
+      <div class="flex flex-col sm:flex-row items-center mt-2 sm:mt-0 space-y-2 sm:space-y-0 sm:space-x-10">
+        <a href="/" class="text-black text-lg font-bold">Home</a>
+        <a href="/pricing" class="text-black text-lg font-bold">Pricing</a>
+        <a href="/contact" class="text-black text-lg font-bold">Contact Us</a>
+      </div>
+    </div>
+
+    <div class="bg-[url('https://drearth.com/wp-content/uploads/Lawn-mower-iStock-505985722.jpg')] bg-cover bg-center h-[70vh] sm:h-[91vh] flex items-center justify-center">
+      <div class="bg-gray-700/70 rounded-lg p-6 w-[95vw] sm:w-[80vw] text-white text-lg sm:text-xl font-bold">
+        <h1 class="text-3xl mb-4">Contact Us</h1>
+        <p class>
+        Phone Number: 804 503 8500
+        </p>
+        <p>
+        Gmail: coenmathias09@gmail.com
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>
